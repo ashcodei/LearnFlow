@@ -1,46 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# University Learning Management System 
 
-## Available Scripts
+A modern, full-stack learning management system built with React, Express, and MongoDB. Features an AI-powered tutoring system and interactive course management.
 
-In the project directory, you can run:
+![App Screenshot - Dashboard](https://docimg.replit.com/images/repls/repl-screenshot.png)
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Authentication & Authorization**
+  - Secure login/signup system
+  - Support for Google OAuth and Azure AD
+  - Role-based access control (Students/Teachers)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Course Management**
+  - Browse and enroll in courses
+  - View course materials and assignments
+  - Interactive course content delivery
 
-### `npm test`
+- **AI-Powered Tutoring**
+  - Real-time AI assistance
+  - Personalized learning support
+  - Chat-based interaction
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Interactive Dashboard**
+  - Course progress tracking
+  - Upcoming assignments view
+  - Calendar integration
 
-### `npm run build`
+- **Modern UI/UX**
+  - Responsive design
+  - Dark mode support
+  - Accessible components
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend**: React, TypeScript, TailwindCSS, Radix UI
+- **Backend**: Express.js, Node.js
+- **Database**: MongoDB
+- **Authentication**: Passport.js
+- **AI Integration**: OpenAI
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚦 Getting Started
 
-### `npm run eject`
+1. Fork this template in Replit
+2. Click the "Run" button to start the development server
+3. The app will be available at the URL shown in the webview
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 💻 Development
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To run the project locally in Replit:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Install dependencies
+npm install
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Start development server
+npm run dev
+```
 
-## Learn More
+The development server will start on port 5000.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔐 Environment Variables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Required environment variables should be set in Replit's Secrets tab:
+
+- `MONGODB_URI`: MongoDB connection string
+- `SESSION_SECRET`: Secret for session management
+- `OPENAI_API_KEY`: OpenAI API key for AI tutoring
+- `GOOGLE_CLIENT_ID`: Google OAuth client ID
+- `GOOGLE_CLIENT_SECRET`: Google OAuth client secret
+
+## 📝 Project Structure
+
+```
+├── client/          # Frontend React application
+├── server/          # Backend Express server
+├── shared/          # Shared types and utilities
+└── public/          # Static assets
+```
+
+## 🌐 Deployment
+
+This project is configured for deployment on Replit. The deployment configuration is already set up in the `.replit` file.
+
+To deploy:
+1. Make your changes
+2. Commit them
+3. Go to the Deployment tab in Replit
+4. Click "Deploy"
+
+## 🤝 Contributing
+
+Feel free to fork this template and make your own modifications. If you make something cool, consider sharing it with the Replit community!
+
+## 📄 License
+
+MIT License - feel free to use this project for your own learning and development!
