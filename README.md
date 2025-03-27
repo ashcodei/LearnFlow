@@ -22,7 +22,7 @@ A modern, full-stack learning management system built with React, Express, and M
   - Personalized learning support
   - Chat-based interaction
 
-    ![App Screenshot - Dashboard](https://github.com/ashcodei/LearnFlow/blob/main/Screenshot%202025-03-27%20014118.png)
+    ![App Screenshot - AITutor](https://github.com/ashcodei/LearnFlow/blob/main/Screenshot%202025-03-27%20014135.png)
 
 - **Interactive Dashboard**
   - Course progress tracking
