@@ -3,7 +3,7 @@
 
 A modern, full-stack learning management system built with React, Express, and MongoDB. Features an AI-powered tutoring system and interactive course management.
 
-![App Screenshot - Dashboard](https://docimg.replit.com/images/repls/repl-screenshot.png)
+![App Screenshot - Dashboard](https://github.com/ashcodei/LearnFlow/blob/main/Screenshot%202025-03-27%20014118.png)
 
 ## 🚀 Features
 
